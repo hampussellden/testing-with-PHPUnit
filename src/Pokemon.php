@@ -21,4 +21,4 @@ class Pokemon
         return $url;
     }
 }
-echo 'hello';
+echo 'hello there mate';
