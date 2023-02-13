@@ -18,7 +18,7 @@ class RouterTest extends TestCase
     public function test_route_not_found()
     {
         $router = new Router(['/pokemon' => 'pokemon']);
-        $router->direct('/kebab');
         $this->expectException(NotFoundHttpException::class);
+        $router->direct('/kebab');
     }
 }
